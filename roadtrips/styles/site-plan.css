@@ -17,7 +17,7 @@
   --headline-color-on-white: #283618;  /* headlines on a white background */ 
   --headline-color-on-color: #FEFAE0; /* headlines on a colored background */ 
   --paragraph-color-on-white: #BC6C25; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #EECE9F; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #FEFAE0; /* paragraph text on a colored background */ 
   --paragraph-background-color: #445128;
   --nav-link-color: #283618;
   --nav-background-color: #FEFAE0;
@@ -79,7 +79,7 @@ body {
         background-color: #999;
     }
     .colors td{
-        width: 25%;
+        width: 10%;
         height: 3em;
     }
     .primary {
@@ -114,6 +114,10 @@ body {
         font-size: 1.2em;
         list-style-type: none;
         display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
     }
     nav a {
     padding:1em;
@@ -154,6 +158,11 @@ body {
     }
     .sm-page3 {
     grid-area: page3;
+    background-color: #ccc;
+    line-height: 3em;
+    }
+    .sm-contactus {
+    grid-area: contactus;
     background-color: #ccc;
     line-height: 3em;
     }
