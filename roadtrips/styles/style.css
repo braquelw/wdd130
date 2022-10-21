@@ -12,16 +12,6 @@
     --heading-font: 'Pompiere';
     --subheading-font: 'Julius Sans One';
     --paragraph-font: Dosis, Helvetica, sans-serif;
-  
-    --headline-color-on-white: #283618;  /* headlines on a white background */ 
-    --headline-color-on-color: #FEFAE0; /* headlines on a colored background */ 
-    --paragraph-color-on-white: #BC6C25; /* paragraph text on a white background */ 
-    --paragraph-color-on-color: #EECE9F; /* paragraph text on a colored background */ 
-    --paragraph-background-color: #445128;
-    --nav-link-color: #283618;
-    --nav-background-color: #FEFAE0;
-    --nav-hover-link-color: #FEFAE0;
-    --nav-hover-background-color: #BC6C25;
 }
 
 div{
