@@ -18,33 +18,37 @@ div{
     max-width: 1600px;
     margin: 0 auto;
 }
-header{
-    background-color: rgba(254, 250, 224, .5);
-    font-family: Dosis;
+header {
+    background-color: #EECE9F;
     display: grid;
-    grid-template-columns: 200px auto;
-    margin: 0%;
-}
-.logo{
-    width: 100%;
+    grid-template-columns: 250px auto;
     margin: 0;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.logo {
+    width: 100%;
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 10px;
+    margin-top: -20px;
+    margin-bottom: -20px;
 }
 #logo_link {
     justify-self: center;
     align-self: center;
 }
 nav {
-    line-height: 3.5em;
+    line-height: 40px;
     text-align: center;
     font-size: 1em;
-    list-style-type: none;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-self: right;
+    grid-column: 2;
+    margin-right: 50px;
 }
 nav a {
-    padding:1em;
-    min-width: 120px;
+    min-width: 150px;
     text-decoration: none;
     padding: 10px;
     color:#283618;
@@ -54,8 +58,9 @@ nav a:link, nav a:visited {
     color: #283618;
 }
 nav a:hover {
-    color: #BC6C25;
-    background-color: #EECE9F;
+    color: #FEFAE0;
+    background-color:#DDA15E;
+    padding: 8px;
 }
 body{
     background-color: #BC6C25;
@@ -63,4 +68,62 @@ body{
     font-size: 22px;
     margin: 0;
     padding: 0;
+}
+.quote1 {
+    width: 100%;
+    margin: 0;
+}
+.middleblock {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 20px;
+    padding-right: 180px;
+    padding-left: 180px;
+}
+.picofme {
+    width: 250px;
+    border-radius: 200px;
+    grid-column: 2;
+    justify-self: right;
+}
+.intro {
+    grid-column: 3;
+    justify-self: left;
+    align-content: center;
+    padding-left: 20px;
+}
+h4 {
+    font-family: Pompiere;
+    font-size: 2em;
+    margin: 0;
+    color:#DDA15E;
+}
+p {
+    font-family: dosis;
+    font-size: .85em;
+    margin: 0;
+    color:#FEFAE0;
+}
+.quote2 {
+    width: 100%;
+    margin: 0;
+}
+
+
+
+@media screen and (max-width: 750px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
 }
