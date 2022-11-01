@@ -197,14 +197,110 @@ footer .social img {
 }
 
 
+
+
 .salmon-river {
-    margin: 20px;
+    margin: 50px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto 450px;
+    grid-gap: 20px;
+    align-items: center;
+    text-align: center;
 }
 .salmon-river h1 {
-    margin: 20px;
     font-size: 40px;
     color:#69A0C2;
+    grid-column: 1;
+    grid-row: 1;
+    margin-bottom: 5px;
+    padding: 0;
+    align-self: end;
 }
+.salmon-river img {
+    width: 100%;
+    grid-column: 2;
+    grid-row: 1/3;
+    margin: 1px;
+    padding: 5px;
+}
+.salmon-river p {
+    grid-column: 1;
+    grid-row: 2;
+    color: #F1FAEE;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 5px;
+    align-self: start;
+}
+.river-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    grid-gap: 30px;
+    text-align: center;
+    background-color:#EB4812;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.river-sections img {
+    width: 80%;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364
+}
+.river-sections img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+.river-sections h2 {
+    font-size: 35px;
+    color:#1D4157;
+    margin-top: 20px;
+}
+.river-sections p {
+    font-size: 18px;
+    color:#F1FAEE;
+    margin-top: 5px;
+}
+.history {
+    display: grid;
+    grid-template-columns: 450px auto;
+    grid-gap: 20px;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+    margin-bottom: 100px;
+}
+.history img {
+    grid-column: 1;
+    grid-row: 1/3;
+    width: 100%;
+    margin: 1px;
+    padding: 5px;
+}
+.history h1 {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 40px;
+    color:#69A0C2;
+    margin-bottom: 5px;
+    padding: 0;
+    align-self: end;
+}
+.history p {
+    grid-column: 2;
+    grid-row: 2;
+    color: #F1FAEE;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 5px;
+    align-self: start;
+}
+
 
 
 @media screen and (max-width: 900px) {
@@ -247,5 +343,16 @@ footer .social img {
     }
     footer {
         margin-top: 25px;
+    }
+
+
+    .salmon-river {
+        display: block;
+    }
+    .river-sections {
+        display: block;
+    }
+    .history {
+        display: block;
     }
 }
