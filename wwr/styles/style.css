@@ -170,6 +170,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
 footer h3 {
     color: #1D4157;
