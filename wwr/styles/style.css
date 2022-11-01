@@ -15,9 +15,9 @@ div {
 nav {
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 nav a {
-    text-align: center;
     color: #1D4157;
     text-decoration: none;
     padding: 25px;
@@ -30,11 +30,11 @@ nav a:hover {
     color: #F1FAEE;
     font-family: Oswald;
     font-size: 3.5em;
-    margin-top: 150px;
 }
 #hero {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 9fr 1fr;
+    grid-template-rows: 150px auto;
     margin-top: -100px;
 }
 #hero-box {
@@ -45,7 +45,7 @@ nav a:hover {
 }
 #hero-msg {
     grid-column: 2/3;
-    grid-row: 1/2;
+    grid-row: 2;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
