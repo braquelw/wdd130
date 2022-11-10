@@ -322,6 +322,7 @@ form li + li {
 label {
     display: inline-block;
     width: 90px;
+    padding-right: 2px;
     text-align: right;
     color: #69A0C2;
 }
@@ -329,7 +330,7 @@ input, textarea {
     font: .75em sans-serif;
     width: 300px;
     box-sizing: border-box;
-    border: 1px solid #EB4812;
+    border: 1px solid #1D4157;
 }
 input:focus, textarea:focus {
     border-color: #EB4812;
