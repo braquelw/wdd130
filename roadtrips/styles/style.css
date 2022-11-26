@@ -76,6 +76,9 @@ nav a:hover {
     justify-content: center;
     font-size: 22px;
   }
+  .dropdown .dropbtn:hover {
+    font-size: 24px;
+  }
   .dropdown-content {
     display: none;
     position: absolute;
