@@ -424,6 +424,35 @@ hr {
     .places {
         margin-top: 20px;
     }
+    .tips h1 {
+        font-size: 48px;
+    }
+    .tips h3 {
+        font-size: 30px;
+    }
+    .tips p {
+        text-align: justify;
+        font-family: dosis;
+        color:#283618;
+        padding: 7px;
+        font-size: 20px;
+    }
+    .tips a {
+        text-decoration: none;
+        text-align: center;
+        display: flexbox;
+        align-items: center;
+        min-width: 150px;
+        padding-right: 30px;
+        padding-left: 30px;
+        font-family: Dosis;
+        font-size: 22px;
+        color:#BC6C25;
+    }
+    .tips a:hover {
+        color:#DDA15E;
+        max-width: 150px;
+    }
 }
 
 
