@@ -404,6 +404,11 @@ footer a:hover {
     .places-grid {
         display: block;
     }
+    .places-grid img {
+        width: 450px;
+        margin: auto;
+        align-items: center;
+    }
     .places {
         margin-top: 20px;
         margin-bottom: 0;
@@ -565,7 +570,7 @@ footer a:hover {
         font-size: 15px;
     }
     .places-grid img {
-        max-width: 450px;
+        max-width: 300px;
     }
  
 
