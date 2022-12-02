@@ -82,12 +82,12 @@ nav a:hover {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color:#606C38;
+    background-color:#DDA15E;
     min-width: 230px;
     z-index: 1;
   }
   nav .dropdown-content a {
-    color:#EECE9F;
+    color:#FEFAE0;
     line-height: 20px;
   }
   .dropdown-content a {
@@ -99,7 +99,7 @@ nav a:hover {
     text-align: center;
   }
   .dropdown-content a:hover {
-    background-color: #445128;
+    background-color: #EECE9F;
     font-size: 20px;
   }
   .dropdown:hover .dropdown-content {
