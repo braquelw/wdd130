@@ -278,11 +278,6 @@ footer a:hover {
     width: 90%;
 }
 
-/* Journeys Pages */
-.centered {
-    text-align: center;
-}
-
 
 /* Journeys Sub Pages */
 .banner {
@@ -290,6 +285,11 @@ footer a:hover {
 }
 .body {
     margin: 100px;
+}
+.body h5 {
+    font-family: Pompiere;
+    font-size: 26px;
+    text-align: center;
 }
 .body h6 {
     font-family: Pompiere;
@@ -322,6 +322,9 @@ hr {
     padding: 0;
     margin: 10px;
     margin-top: -50px;
+}
+.places h5 {
+    margin-bottom: -40px;
 }
 .places h6 {
     margin-bottom: 5px;
@@ -412,6 +415,9 @@ hr {
     .road-trips {
         grid-gap: 50px;
         padding: 50px;
+    }
+    .body {
+        margin: 50px;
     }
     .places-grid {
         display: block;
@@ -604,6 +610,9 @@ hr {
     }
     .body {
         margin: 25px;
+    }
+    .body h5 {
+        font-size: 20px;
     }
     .body h6 {
         font-size: 18px;
