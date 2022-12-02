@@ -288,13 +288,18 @@ footer a:hover {
 .banner {
     width: 100%;
 }
-.intro h6 {
-    margin: 50px;
+.body {
+    margin: 100px;
+}
+.body h6 {
     font-family: Pompiere;
     font-size: 24px;
 }
-.body h6 {
-    font-size: 24px;
+hr {
+    height: 2px;
+    width: 95%;
+    background-color: #283618;
+    color:#283618;
 }
 .body p {
     font-family: dosis;
@@ -305,10 +310,9 @@ footer a:hover {
     margin-bottom: 50px;
 }
 .places-grid {
-    margin: 50px;
-    margin-top: 0;
+    margin-top: 50px;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 25px;
     grid-template-columns: auto 450px;
 }
 .places {
@@ -418,10 +422,7 @@ footer a:hover {
         align-items: center;
     }
     .places {
-        margin: 20px;
-    }
-    .bridge-banner {
-        margin-bottom: 0;
+        margin-top: 20px;
     }
 }
 
@@ -569,12 +570,11 @@ footer a:hover {
         display: block;
         padding: 30px;
     }
-    .road-trips article {
-        margin-top: 30px;
+    .body {
+        margin: 50px;
     }
     .body h6 {
         font-size: 18px;
-        margin-bottom: 0;
     }
     .body p {
         font-size: 15px;
@@ -582,9 +582,7 @@ footer a:hover {
     .places-grid img {
         max-width: 300px;
     }
-    .bridge-banner {
-        margin-top: 50px;
-    }
+
  
 
     /* Trip Tips Page Mobile */
