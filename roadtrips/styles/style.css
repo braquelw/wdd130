@@ -278,23 +278,35 @@ footer a:hover {
     width: 90%;
 }
 
+/* Journeys Pages */
+.centered {
+    text-align: center;
+}
+
 
 /* Journeys Sub Pages */
 .banner {
     width: 100%;
 }
-.body {
+.intro h6 {
     margin: 50px;
+    font-family: Pompiere;
+    font-size: 24px;
 }
 .body h6 {
-    font-family: Pompiere;
     font-size: 24px;
 }
 .body p {
     font-family: dosis;
     font-size: 20px;
 }
+.bridge-banner {
+    width: 100%;
+    margin-bottom: 50px;
+}
 .places-grid {
+    margin: 50px;
+    margin-top: 0;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: auto 450px;
@@ -316,6 +328,7 @@ footer a:hover {
     align-self: center;
     width: 450px;
     padding: 10px;
+    margin: 0;
 }
 .body p {
     margin-bottom: 15px;
@@ -373,12 +386,6 @@ footer a:hover {
 }
 
 
-/* Journeys Pages */
-.centered {
-    text-align: center;
-}
-
-
 
 @media screen and (max-width: 1250px) {
     .places-grid {
@@ -386,6 +393,7 @@ footer a:hover {
     }
     .places-grid img {
         width: 300px;
+    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -410,7 +418,9 @@ footer a:hover {
         align-items: center;
     }
     .places {
-        margin-top: 20px;
+        margin: 20px;
+    }
+    .bridge-banner {
         margin-bottom: 0;
     }
 }
@@ -571,6 +581,9 @@ footer a:hover {
     }
     .places-grid img {
         max-width: 300px;
+    }
+    .bridge-banner {
+        margin-top: 50px;
     }
  
 
