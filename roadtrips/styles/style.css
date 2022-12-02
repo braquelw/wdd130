@@ -568,7 +568,10 @@ hr {
     }
     .road-trips {
         display: block;
-        padding: 30px;
+        padding: 20px;
+    }
+    .road-trips p {
+        margin-bottom: 30px;
     }
     .body {
         margin: 25px;
